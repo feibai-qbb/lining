@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    width: 100%;
+    min-width: 1260px;
+}
+
+
+/* img{
+	display: block;
+} */
+
+.carousel-one {
+    /* width: 1000px; */
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    width: 1920px;
+    max-width: 1920px;
+    min-width: 1000px;
+    height: 793px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-play {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
+.carousel-last {
+    background: url(../img/last.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.carousel-next {
+    background: url(../img/next.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 250px;
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.carousel-two {
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+}
+
+.carousel-block {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-two-images {
+    display: block;
+    /* width: 1920px; */
+    /* width: 100%; */
+    display: block;
+    width: 1920px;
+    /* margin-left: -465px; */
+    margin-left: -452px;
+}
+
+.carousel-star-one {
+    position: absolute;
+    width: 484px;
+    height: 634px;
+    left: 14px;
+    top: 86px;
+    /* background-color: #000000; */
+    border-radius: 30px;
+}
+
+.carousel-star-two {
+    position: absolute;
+    width: 484px;
+    height: 634px;
+    left: 518px;
+    top: 86px;
+    /* background-color: #000000; */
+    border-radius: 30px;
+}
+
+
+/* .carousel-content */
+
+.carousel-content {
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+.carousel-slideshow-two {
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slideshow-two>li {
+    width: 350px;
+    height: 450px;
+    position: absolute;
+}
+
+.carousel-slideshow-two>li:hover {
+    transform: translateY(5px);
+    transition: all 0.3s;
+}
+
+.carousel-play-two {
+    width: 340px;
+    margin: 0 5px;
+}
+
+.carousel-two-last {
+    background: url(../img/last.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 250px;
+    left: -150px;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.carousel-two-next {
+    background: url(../img/next.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 250px;
+    left: 1070px;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.carousel-best-one {
+    position: absolute;
+    /* background-color: #000000; */
+    top: 570px;
+    left: 10px;
+    width: 230px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.carousel-best-two {
+    position: absolute;
+    /* background-color: #000000; */
+    width: 230px;
+    height: 300px;
+    top: 570px;
+    left: 260px;
+    border-radius: 15px;
+}
+
+.carousel-best-three {
+    position: absolute;
+    /* background-color: #000000; */
+    top: 570px;
+    left: 510px;
+    width: 230px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.carousel-best-four {
+    position: absolute;
+    /* background-color: #000000; */
+    top: 570px;
+    left: 760px;
+    width: 230px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.carousel-Mother-day {
+    position: absolute;
+    /* background-color: #000000; */
+    top: 75px;
+    left: 10px;
+    width: 979px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.carousel-slideshow-three-box {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 416px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.carousel-slideshow-three {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 416px;
+}
+
+.carousel-slideshow-three img {
+    width: 990px;
+    margin: 0 5px;
+}
+
+.carousel-play-three {
+    position: absolute;
+    z-index: 80;
+}
+
+.carousel-three-last {
+    background: url(../img/last.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 150px;
+    left: -150px;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.carousel-three-next {
+    background: url(../img/next.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 150px;
+    left: 1070px;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.new-one,
+.new-two,
+.new-three,
+.new-four {
+    position: absolute;
+    width: 213px;
+    height: 409px;
+    /* background-color: #000000; */
+    top: 342px;
+    border-radius: 25px;
+}
+
+.new-one {
+    left: 49px;
+}
+
+.new-two {
+    left: 275px;
+}
+
+.new-three {
+    left: 510px;
+}
+
+.new-four {
+    left: 740px;
+}
+
+.carousel-slideshow-four {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 425px;
+}
+
+.carousel-four {
+    width: 100%;
+    height: 425px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-play-four {
+    width: 335px;
+    height: 405px;
+    position: absolute;
+}
+
+.carousel-play-four img {
+    width: 330px;
+    height: 405px;
+    margin: 0 2.5px;
+}
+
+.carousel-play-four:hover {
+    transform: translateY(5px);
+    transition: all 0.3s;
+}
+
+.carousel-four-last {
+    background: url(../img/last.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 215px;
+    left: -150px;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.carousel-four-next {
+    background: url(../img/next.png) no-repeat 0 0/100%;
+    position: absolute;
+    top: 215px;
+    left: 1070px;
+    width: 80px;
+    height: 80px;
+    z-index: 101;
+}
+
+.tide-link {
+    position: absolute;
+    width: 978px;
+    height: 300px;
+    /* background-color: #000000; */
+    top: 15px;
+    left: 10px;
+}
+
+.gender {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.gender>button {
+    outline: none;
+    width: 198px;
+    height: 57px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    line-height: 57px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.gender>button:nth-child(1) {
+    margin-right: 150px;
+    background-color: #78c9da;
+    border-radius: 4px;
+}
+
+.select-tide {
+    width: 1000px;
+    height: 860px;
+    background-color: #e8e8e8;
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+
+.select-man,
+.select-woman {
+    width: 100%;
+    height: 100%;
+    /* background-color: #59CEFF; */
+}
+
+.select-woman {
+    display: none;
+}
+
+.select-man {
+    /* position: absolute; */
+    /* top: 0; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.select-merchandise {
+    width: 193px;
+    height: 278px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+
+.select-merchandise:hover {
+    transition: all 0.3s;
+    top: -5px;
+}
+
+.select-merchandise img {
+    width: 193px;
+}
+
+.select-merchandise>p {
+    width: 100%;
+    height: 42px;
+}
+
+.select-merchandise>p {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.RMB {
+    font-size: 14px;
+    color: #c91212;
+    padding: 0 0 0 5px;
+}
+
+.man-select-money {
+    font-size: 20px;
+    color: #c91212;
+}
+
+.select-man-link {
+    width: 63px;
+    height: 22px;
+    line-height: 22px;
+    background-color: #c91212;
+    color: #FFFFFF;
+    font-size: 14px;
+    float: right;
+    margin-right: 8px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.select-woman {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    display: none;
+}
+
+
+/* 篮球系列 */
+
+.basketball-serise {
+    /* background-color: #000000; */
+    width: 980px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
